@@ -384,7 +384,7 @@ class SIPSession {
         sessionDescriptionHandlerFactoryOptions: {
           peerConnectionConfiguration: {
             iceServers,
-            sdpSemantics: 'plan-b',
+            sdpSemantics: 'unified-plan',
           },
           constraints: this.userMediaConstraints,
         },
